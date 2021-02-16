@@ -18,6 +18,7 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 gem "jekyll", "3.8.4"
 gem 'bootstrap', '~> 4.1.3'
+gem "rexml"
 group :jekyll_plugins do
   gem "jekyll-assets"
   # TODO: Remove this when https://github.com/envygeeks/jekyll-assets/pull/620
